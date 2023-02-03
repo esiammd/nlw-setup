@@ -37,12 +37,12 @@ export function Habit() {
 
                 <View className="mt-6">
                     <Checkbox
-                        title="Beber 2L de água"
+                        title="Beber 2L de agua"
                         checked={false}
                     />
 
                     <Checkbox
-                        title="Caminhas"
+                        title="Hacer ejercicios"
                         checked={true}
                     />
                 </View>
