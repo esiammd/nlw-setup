@@ -15,7 +15,7 @@ export function Habit() {
 
     const pasedDate = dayjs(date);
     const dayOfWeek = pasedDate.format("dddd");
-    const dayOfMonth = pasedDate.format("DD/MM");
+    const dayAndMonth = pasedDate.format("DD/MM");
 
     return (
         <View className="flex-1 bg-background px-8 pt-16">
@@ -30,7 +30,7 @@ export function Habit() {
                 </Text>
 
                 <Text className="text-white font-extrabold text-3xl">
-                    {dayOfMonth}
+                    {dayAndMonth}
                 </Text>
 
                 <ProgressBar progress={30} />
